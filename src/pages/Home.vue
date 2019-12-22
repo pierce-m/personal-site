@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h3>Hello from Home!</h3>
-  </div>
+  <v-img :src="require('../assets/brain.jpg')" />
 </template>
 
 <script>

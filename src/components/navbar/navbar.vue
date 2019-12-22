@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <v-toolbar>
-
+  <v-app-bar :app="app">
       <v-menu offset-y>
         <template v-slot:activator="{ on }">
           <v-btn
@@ -31,18 +29,17 @@
           About
         </v-btn>
       </v-toolbar-items>
-
-    </v-toolbar>
-  </div>
+  </v-app-bar>
 </template>
 
 <script>
 export default {
   name: "navbar",
+  props: ['app'],
   data: () => {
     return {
       projects: [
-        { title: "Trees" }
+        { title: "The Buzz" }
       ]
     }
   }
