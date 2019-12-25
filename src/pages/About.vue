@@ -56,13 +56,13 @@ export default {
     journeyCardData: [
       {
         images: ['graduate.jpg'],
-        subtitle: 'Desk jockey',
-        text: `I worked at a desk job for two years
-          before realizing I was more at home in the outdoors`,
+        subtitle: 'The Desk Jockey...',
+        text: `After graduating college, I worked at a desk job in CA for two years
+          until I realized my calling was elsewhere`,
       },
       {
         images: ['toothbrush.jpg', 'thelanceinptown.jpg'],
-        subtitle: 'Dirtbag',
+        subtitle: 'The Dirtbag...',
         text: `I hit the road for a year and a half to explore the country
           and pursue my passion for rock climbing, eventually landing in
           Chattanooga, TN.`

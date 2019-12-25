@@ -35,6 +35,13 @@
         >
           <v-icon large>mdi-linkedin-box</v-icon>
         </v-btn>
+        <v-btn
+          icon
+          :href="EXTERNAL_URLS.GITHUB"
+          color="black"
+        >
+          <v-icon large>mdi-github-circle</v-icon>
+        </v-btn>
       </v-toolbar-items>
   </v-app-bar>
 </template>
