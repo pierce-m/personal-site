@@ -62,7 +62,7 @@ export default {
       },
       {
         images: ['toothbrush.jpg', 'thelanceinptown.jpg'],
-        subtitle: 'The Dirtbag...',
+        subtitle: 'The Climbing Dirtbag...',
         text: `I hit the road for a year and a half to explore the country
           and pursue my passion for rock climbing, eventually landing in
           Chattanooga, TN.`
