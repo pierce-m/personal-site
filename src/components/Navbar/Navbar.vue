@@ -28,11 +28,20 @@
         <v-btn text to="/about">
           About
         </v-btn>
+        <v-btn
+          icon
+          :href="EXTERNAL_URLS.LINKEDIN"
+          color="#0077b5"
+        >
+          <v-icon large>mdi-linkedin-box</v-icon>
+        </v-btn>
       </v-toolbar-items>
   </v-app-bar>
 </template>
 
 <script>
+import { EXTERNAL_URLS } from '../../utils/constants.js'
+
 export default {
   name: "navbar",
   props: ['app'],
@@ -40,7 +49,8 @@ export default {
     return {
       projects: [
         { title: "The Buzz" }
-      ]
+      ],
+      EXTERNAL_URLS: EXTERNAL_URLS
     }
   }
 }
