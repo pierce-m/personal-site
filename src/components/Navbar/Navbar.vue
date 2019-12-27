@@ -1,13 +1,13 @@
 <template>
   <v-app-bar :app="app">
+    <v-btn text to="/">
+      home
+    </v-btn>
+    <v-btn text to="/about">
+      about
+    </v-btn>
     <v-spacer />
     <v-toolbar-items>
-      <v-btn text to="/">
-        Home
-      </v-btn>
-      <v-btn text to="/about">
-        About
-      </v-btn>
       <v-btn
         icon
         :href="EXTERNAL_URLS.LINKEDIN"
