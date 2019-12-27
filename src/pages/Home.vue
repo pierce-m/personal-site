@@ -1,10 +1,10 @@
 <template>
-  <v-carousel cycle height="830">
+  <v-carousel cycle height="900">
     <v-carousel-item
       v-for="(image, index) in carouselImages"
       :key="index"
     >
-      <v-img :src="require('../assets/' + image)" max-height="830"/>
+      <v-img :src="require('../assets/' + image)" max-height="900"/>
     </v-carousel-item>
   </v-carousel>
 </template>
